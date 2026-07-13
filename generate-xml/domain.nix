@@ -359,6 +359,8 @@ let
                         (subattr "discard" typeString)
                         (subattr "queues" typeInt)
                         (subattr "iothread" typeInt)
+                        (subattr "error_policy" typeString)
+                        (subattr "rerror_policy" typeString)
                       ] [ ]
                     )
                   ] ++
