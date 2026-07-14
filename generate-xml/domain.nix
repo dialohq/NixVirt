@@ -510,6 +510,7 @@ let
                         ] [ ])
                     ])
                   (subelem "model" [ (subattr "type" typeString) ] [ ])
+                  (subelem "boot" [ (subattr "order" typeInt) ] [ ])
                   targetelem
                   addresselem
                 ])
